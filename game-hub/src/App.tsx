@@ -5,7 +5,7 @@ function App() {
     <Grid
       templateAreas={{
         base: `"nav" "main"`,
-        lg: `"nav nav" "aside main"`,
+        lg: `"nav nav" "aside main"`, // larger than 1024 pixels
       }}
     >
       <GridItem area="nav" bg="coral">
